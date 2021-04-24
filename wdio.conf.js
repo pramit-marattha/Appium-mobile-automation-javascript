@@ -49,7 +49,7 @@ exports.config = {
     {
       platformName: "Android",
       "appium:deviceName": "Pixel 3",
-      "appium:app": "./ApiDemos-debug.apk",
+      "appium:app": join(process.cwd(), "./ApiDemos-debug.apk"),
     },
   ],
   //
