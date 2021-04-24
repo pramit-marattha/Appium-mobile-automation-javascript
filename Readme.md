@@ -17,3 +17,7 @@
 ## Finding Elements
 
 ![image](https://user-images.githubusercontent.com/37651620/115958186-15527d80-a526-11eb-92ac-477970da4a26.png)
+
+## Scroll test using touchAction
+
+![image](https://user-images.githubusercontent.com/37651620/115958792-9e6ab400-a528-11eb-970b-7dc2766a36df.png)
