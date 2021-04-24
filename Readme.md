@@ -13,3 +13,7 @@
 ## setting up with desire capabilities
 
 ![image](https://user-images.githubusercontent.com/37651620/115957684-93615500-a523-11eb-972e-0b3cf8cef1cc.png)
+
+## Finding Elements
+
+![image](https://user-images.githubusercontent.com/37651620/115958186-15527d80-a526-11eb-92ac-477970da4a26.png)
