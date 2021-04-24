@@ -27,3 +27,7 @@
 ![image](https://user-images.githubusercontent.com/37651620/115963732-6c654c00-a540-11eb-9222-170b9e55f3b4.png)
 ![image](https://user-images.githubusercontent.com/37651620/115963752-74bd8700-a540-11eb-90f0-ed42c51dfc98.png)
 ![dVbnG16eUV](https://user-images.githubusercontent.com/37651620/115963705-4b046000-a540-11eb-952b-88b43fc07929.gif)
+
+## sessions (testing orientation getting orientation and saving screenshots)
+
+![image](https://user-images.githubusercontent.com/37651620/115969392-68dfbe00-a55c-11eb-9faf-7c3172798953.png)

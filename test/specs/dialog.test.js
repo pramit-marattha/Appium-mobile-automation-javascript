@@ -14,7 +14,14 @@ describe("My application Dialog", () => {
     expect(text).equal("Yolo");
     dialog.dialogOkBtn.click();
   });
-  it.only("Verify", () => {
+  it.only("Verify the app adjust when the orientation is switched", () => {
+    driver.getOrientation();
+    driver.setOrientation("LANDSCAPE");
+    driver.pause(1000);
+    driver.saveScreenshot("./screenshots/test.png");
+    driver.back();
+  });
+  it("Verify", () => {
     dialog.viewBtn.click();
     driver.touchAction([
       { action: "press", x: 500, y: 1400 },
