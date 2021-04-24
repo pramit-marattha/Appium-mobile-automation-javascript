@@ -36,6 +36,10 @@ class Dialog {
   get allDays() {
     return $$("//android.widget.CheckedTextView");
   }
+
+  get viewBtn() {
+    return $('//android.widget.TextView[@content-desc="Views"]');
+  }
   _weekdayCheckbox(index) {}
   // #endregion
 }
