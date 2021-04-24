@@ -22,11 +22,27 @@ describe("My application Dialog", () => {
     driver.back();
   });
 
-  it.only("Verify Timeouts", () => {
+  it("Verify Timeouts", () => {
     driver.setImplicitTimeout(10000);
     driver.setTimeouts(10000);
     driver.pause(10000);
     dialog.viewBtn.click();
+  });
+
+  it.only("Verify the repeated checkbox options has attrib checked when it is selected", () => {
+    let isChecked, checkday;
+    dialog.appBtn.click();
+    dialog.alertDialogBtn.click();
+    dialog.repeatAlarmBtn.click();
+    let checkDay = dialog._weekdayCheckbox(6).getText();
+    expect(checkDay).equal("Every Sunday");
+    console.log(checkDay);
+    let isChecked = dialog._weekdayCheckbox(0).getAttribute("checked");
+    expect(isChecked).equal("false");
+
+    dialog._weekdayCheckbox(6).getText();
+    let isChecked = dialog._weekdayCheckbox(0).getAttribute("checked");
+    expect(isChecked).equal("true");
   });
 
   it("Verify", () => {

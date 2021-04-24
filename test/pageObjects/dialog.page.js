@@ -30,6 +30,14 @@ class Dialog {
     return $('//android.widget.Button[@resource-id="android:id/button2"]');
   }
 
+  get repeatAlarmBtn() {
+    return $('//android.widget.Button[@content-desc="Repeat alarm"]');
+  }
+
+  weekdayCheckbox(index) {
+    return $(`//android.widget.CheckedTextVew[@index="${index}"]`);
+  }
+
   get everySundayBtn() {
     return $('//android.widget.CheckedTextView[@index="6"]');
   }

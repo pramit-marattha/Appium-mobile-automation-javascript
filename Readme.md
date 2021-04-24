@@ -35,3 +35,7 @@
 ## Implicit and Explicit waits (Timeouts)
 
 ![image](https://user-images.githubusercontent.com/37651620/115969692-ee17a280-a55d-11eb-92a8-47675de27a4e.png)
+
+## getText and getAttribute element attribute
+
+![image](https://user-images.githubusercontent.com/37651620/115970477-451f7680-a562-11eb-8125-288d3edc0361.png)
