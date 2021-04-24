@@ -21,3 +21,9 @@
 ## Scroll test using touchAction
 
 ![image](https://user-images.githubusercontent.com/37651620/115958792-9e6ab400-a528-11eb-970b-7dc2766a36df.png)
+
+## Element Selection
+
+![image](https://user-images.githubusercontent.com/37651620/115963732-6c654c00-a540-11eb-9222-170b9e55f3b4.png)
+![image](https://user-images.githubusercontent.com/37651620/115963752-74bd8700-a540-11eb-90f0-ed42c51dfc98.png)
+![dVbnG16eUV](https://user-images.githubusercontent.com/37651620/115963705-4b046000-a540-11eb-952b-88b43fc07929.gif)

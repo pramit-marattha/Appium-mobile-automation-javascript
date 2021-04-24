@@ -10,7 +10,8 @@
   "author": "pramit marattha",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^7.5.1"
+    "@wdio/cli": "^7.5.1",
+    "chai": "^4.3.4"
   },
   "devDependencies": {
     "@wdio/local-runner": "^7.5.1",
