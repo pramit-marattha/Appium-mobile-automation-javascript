@@ -31,3 +31,7 @@
 ## sessions (testing orientation getting orientation and saving screenshots)
 
 ![image](https://user-images.githubusercontent.com/37651620/115969392-68dfbe00-a55c-11eb-9faf-7c3172798953.png)
+
+## Implicit and Explicit waits (Timeouts)
+
+![image](https://user-images.githubusercontent.com/37651620/115969692-ee17a280-a55d-11eb-92a8-47675de27a4e.png)

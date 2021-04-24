@@ -14,13 +14,21 @@ describe("My application Dialog", () => {
     expect(text).equal("Yolo");
     dialog.dialogOkBtn.click();
   });
-  it.only("Verify the app adjust when the orientation is switched", () => {
+  it("Verify the app adjust when the orientation is switched", () => {
     driver.getOrientation();
     driver.setOrientation("LANDSCAPE");
     driver.pause(1000);
     driver.saveScreenshot("./screenshots/test.png");
     driver.back();
   });
+
+  it.only("Verify Timeouts", () => {
+    driver.setImplicitTimeout(10000);
+    driver.setTimeouts(10000);
+    driver.pause(10000);
+    dialog.viewBtn.click();
+  });
+
   it("Verify", () => {
     dialog.viewBtn.click();
     driver.touchAction([
