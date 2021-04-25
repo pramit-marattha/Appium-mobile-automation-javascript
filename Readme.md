@@ -1,6 +1,7 @@
 ## Summary
 
 <h5>1) .Element Interactons</h5>
+
 ```
 - Find Elements
 - Add Values
@@ -14,22 +15,28 @@
 <h5>3) .Project setting up and initializing dependencies</h5>
 
 <h5>4) .Element Attributes</h5>
+
 ```
 - getAttribute();
 ```
+
 <h5>5) .Timeouts</h5>
+
 ```
 - Implicit wait
 - Explicit wait
 ```
 
 <h5>6) .Element state</h5>
+
 ```
 - isSelected
 - isEnabled
 - isDisplayed
 ```
+
 <h5>7) .Sessions</h5>
+
 ```
 - Take screenshots (driver.saveScreenshot(`~directory path name`))
 ```
