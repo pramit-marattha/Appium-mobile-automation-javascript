@@ -39,3 +39,8 @@
 ## getText and getAttribute element attribute
 
 ![image](https://user-images.githubusercontent.com/37651620/115970477-451f7680-a562-11eb-8125-288d3edc0361.png)
+
+## isSelected, isEnabled and isDisplayed element state
+
+![image](https://user-images.githubusercontent.com/37651620/115983018-86457400-a5be-11eb-99e6-002b6e944e87.png)
+![image](https://user-images.githubusercontent.com/37651620/115983031-965d5380-a5be-11eb-86aa-f238116b611d.png)

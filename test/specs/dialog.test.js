@@ -29,7 +29,7 @@ describe("My application Dialog", () => {
     dialog.viewBtn.click();
   });
 
-  it.only("Verify the repeated checkbox options has attrib checked when it is selected", () => {
+  it("Verify the repeated checkbox options has attrib checked when it is selected", () => {
     let isChecked, checkday;
     dialog.appBtn.click();
     dialog.alertDialogBtn.click();
@@ -45,12 +45,39 @@ describe("My application Dialog", () => {
     expect(isChecked).equal("true");
   });
 
-  it("Verify", () => {
+  it.only("Verify isEnabled, isSelected, isDisplayed", () => {
     dialog.viewBtn.click();
     driver.touchAction([
       { action: "press", x: 500, y: 1400 },
       { action: "moveTo", x: 500, y: 300 },
       "release",
+      { action: "press", x: 500, y: 1400 },
+      { action: "moveTo", x: 500, y: 300 },
+      "release",
+      { action: "press", x: 500, y: 1400 },
+      { action: "moveTo", x: 500, y: 300 },
+      "release",
     ]);
+    dialog.tabsBtn.click();
+    dialog.contentById.click();
+
+    let isEnabled, isSelected, isDisplayed;
+
+    for (i = 0; i < 3; i++) {
+      isEnabled = dialog.tabs[i].isEnabled(); // returns true or false
+      isSelected = dialog.tabs[i].isSelected(); // returns true or false
+      isDisplayed = dialog.tabs[i].isDisplayed(); // returns true or false
+
+      console.log(`Tabs : ${i + 1}`);
+      console.log(`isEnabled: ${isEnabled}`);
+      console.log(`isSelected: ${isSelected}`);
+      console.log(`isDisplayed: ${isDisplayed}`);
+
+      if (isEnabled && isSelected) {
+        console.log(`First Tab Content ${dialog.tab1Content.isDisplayed()}`);
+        console.log(`Second Tab Content ${dialog.tab2Content.isDisplayed()}`);
+        console.log(`Third Tab Content ${dialog.tab3Content.isDisplayed()}`);
+      }
+    }
   });
 });

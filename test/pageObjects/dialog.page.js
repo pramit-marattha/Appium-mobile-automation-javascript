@@ -38,6 +38,28 @@ class Dialog {
     return $(`//android.widget.CheckedTextVew[@index="${index}"]`);
   }
 
+  get tabsBtn() {
+    return $('//android.widget.TextView[@content-desc="Tabs"]');
+  }
+
+  get contentById() {
+    return $('//android.widget.TextView[@content-desc="1. Content By Id"]');
+  }
+
+  get tabs() {
+    return $$("android.widget.LinearLayout");
+  }
+
+  get tab1Content() {
+    return $("~tab1");
+  }
+  get tab2Content() {
+    return $("~tab2");
+  }
+  get tab3Content() {
+    return $("~tab3");
+  }
+
   get everySundayBtn() {
     return $('//android.widget.CheckedTextView[@index="6"]');
   }
