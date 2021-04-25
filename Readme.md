@@ -1,3 +1,39 @@
+## Summary
+
+<h5>1) .Element Interactons</h5>
+```
+- Find Elements
+- Add Values
+- Clear Values
+- click
+- Get Text
+```
+
+<h5>2) .Scrolling</h5>
+
+<h5>3) .Project setting up and initializing dependencies</h5>
+
+<h5>4) .Element Attributes</h5>
+```
+- getAttribute();
+```
+<h5>5) .Timeouts</h5>
+```
+- Implicit wait
+- Explicit wait
+```
+
+<h5>6) .Element state</h5>
+```
+- isSelected
+- isEnabled
+- isDisplayed
+```
+<h5>7) .Sessions</h5>
+```
+- Take screenshots (driver.saveScreenshot(`~directory path name`))
+```
+
 ## running the test
 
 ![image](https://user-images.githubusercontent.com/37651620/115957726-d1f70f80-a523-11eb-8096-5add27edfa5f.png)
@@ -44,3 +80,7 @@
 
 ![image](https://user-images.githubusercontent.com/37651620/115983018-86457400-a5be-11eb-99e6-002b6e944e87.png)
 ![image](https://user-images.githubusercontent.com/37651620/115983031-965d5380-a5be-11eb-86aa-f238116b611d.png)
+
+```
+
+```
